@@ -49,6 +49,7 @@ It includes all the necessary **kexts**, **drivers**, and a pre-configured `conf
 
 - ❌ **Wi-Fi** – internal QCA9377 unsupported, use USB dongle
 - ❌ **Bluetooth** – use USB Bluetooth dongle
+- ❌ **Microphone not working** — The microphone has been tested but is currently non-functional.
 - ⚠️ **Hardware acceleration issue** – purple tint on external display (internal display works fine)
 
 ---
