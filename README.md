@@ -16,12 +16,14 @@ It includes all the necessary kexts, drivers, and config.plist pre-configured fo
 
 ## Supported Hardware
 
-* **Model:** Acer Aspire 3 A315-54K
-* **CPU:** Intel Core i3-8130U (or similar 8th Gen)
-* **GPU:** Intel UHD Graphics 620
-* **Wi-Fi:** \[Specify Wi-Fi card/model, or if using USB adapter]
-* **Audio:** \[Specify audio codec, e.g., Realtek ALCxxx]
-* **Others:** Touchpad, keyboard, webcam supported (specify if patched)
+* **Model:** \ Acer Aspire 3 A315-54K
+* **CPU:** \ Intel Core i3-8130U (or similar 8th Gen)
+* **GPU:** \ Intel UHD Graphics 620
+* **RAM** \ 8GB DDR4
+* **SSD** \ At least 50 GB of SSD
+* **Wi-Fi:** \ Qualcomm QCA9377 (not working, need a wifi usb dongle)
+* **Audio:** \ Realtek ALC255
+* **Others:** \ Touchpad, keyboard, webcam supported (specify if patched)
 
 ---
 
@@ -40,9 +42,9 @@ It includes all the necessary kexts, drivers, and config.plist pre-configured fo
 
 ---
 ## Features that don't work
-* Bluetooth (Need Bluetooth dongle)
-* WiFi (Need WiFi dongle)
-* Hardware Acceleration (May glitch the external screen)
+* Bluetooth (Need Bluetooth USB Dongle)
+* WiFi (Need WiFi USB Dongle)
+* Hardware Acceleration (May bugs sometimes with the external screen but the internal screen has no problems)
 ---
 
 ## Installation
