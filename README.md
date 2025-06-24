@@ -1,164 +1,106 @@
-**💻 Hackintosh EFI for Acer Aspire 3 A315-54K**
+# 💻 Hackintosh EFI for Acer Aspire 3 A315-54K
 
 I made this repo for anyone who doesn't want to waste their time ❤️
 
-Here is macOS Sequoia working! 🌲🍎
+> ✅ **macOS Sequoia is fully working!**
 
-
-
-
----
-
-🔍 Overview
-
-This repository contains the EFI folder and configuration files to run macOS on the Acer Aspire 3 A315-54K laptop via OpenCore.
-It includes all the necessary kexts, drivers, and config.plist pre-configured for a smooth macOS installation and boot. 🚀
-
+![macOS Screenshot](MACOS.png)
 
 ---
 
-🧩 Supported Hardware
+## 🔍 Overview
 
-Model: Acer Aspire 3 A315-54K 💼
-
-CPU: Intel Core i3-8130U (8th Gen) ⚙️
-
-GPU: Intel UHD Graphics 620 🖥️
-
-RAM: 8GB DDR4 🧠
-
-Storage: At least 50GB SSD 💾
-
-Wi-Fi: Qualcomm QCA9377 ❌ (Needs USB Wi-Fi dongle 📡)
-
-Audio: Realtek ALC255 🔊
-
-Others: Touchpad, keyboard, webcam supported (some parts may be patched) 👆⌨️📸
-
-
+This repository contains the **EFI folder** and configuration files to run **macOS** on the Acer Aspire 3 A315-54K using **OpenCore**.  
+It includes all the necessary **kexts**, **drivers**, and a pre-configured `config.plist` for a smooth installation and boot experience. 🚀
 
 ---
 
-✨ Features
+## 🧩 Supported Hardware
 
-✅ macOS Ventura up to Sequoia compatible (Tested)
-
-🧰 OpenCore bootloader with minimal patches
-
-🔋 CPU power management & SSDT fixes
-
-🔀 Dual Boot Windows and macOS working (Linux not tested)
-
-🔌 Native USB support (XHCI)
-
-🎧 Audio patched (ALC255 codec)
-
-🌐 Ethernet and external Wi-Fi dongle support
-
-💽 SSD & NVMe support
-
-🌙 Sleep and wake working
-
-🔋 Battery status + brightness keys working
-
-
+| Component     | Model/Details                             | Status         |
+|---------------|-------------------------------------------|----------------|
+| 💼 **Model**    | Acer Aspire 3 A315-54K                   | ✅ Supported    |
+| ⚙️ **CPU**      | Intel Core i3-8130U (8th Gen)            | ✅ Supported    |
+| 🖥️ **GPU**      | Intel UHD Graphics 620                   | ✅ Supported    |
+| 🧠 **RAM**      | 8GB DDR4                                 | ✅ Supported    |
+| 💾 **Storage**  | SSD (50GB or more)                       | ✅ Supported    |
+| 📡 **Wi-Fi**    | Qualcomm QCA9377                         | ❌ Not Working (use USB dongle) |
+| 🔊 **Audio**    | Realtek ALC255                           | ✅ Patched      |
+| 👆 **Others**   | Touchpad, keyboard, webcam               | ✅ Supported    |
 
 ---
 
-🚫 What Doesn’t Work
+## ✨ Features
 
-❌ Bluetooth (Needs USB Bluetooth dongle 🔌)
-
-❌ Wi-Fi (Needs USB Wi-Fi dongle 📡)
-
-⚠️ Hardware acceleration may bug on external screens (internal screen works fine)
-
-
-
----
-
-🛠️ Installation
-
-1. Create a macOS USB installer following OpenCore Hackintosh guides 💿
-
-
-2. Replace the EFI folder on your USB with the one from this repo 📁
-
-
-3. Adjust config.plist as needed, especially the SMBIOS ⚙️
-
-
-4. Boot from USB and install macOS 🚀
-
-
-5. After installation, copy the EFI folder to your macOS EFI partition to boot without USB 📦
-
-
-
+- 🍎 macOS Ventura up to **Sequoia** compatible
+- 🧰 **OpenCore bootloader** with minimal patches
+- 🔋 **CPU power management** & SSDT fixes
+- 🪟🍏 **Dual Boot** with Windows and macOS
+- 🔌 Native **USB** (XHCI) support
+- 🎧 Patched **audio** (ALC255 codec)
+- 🌐 Ethernet / external Wi-Fi dongle support
+- 💽 **SSD / NVMe** fully supported
+- 🌙 **Sleep/Wake** works
+- 🔋 Battery status + brightness keys functional
 
 ---
 
-⚙️ Configuration
+## 🚫 What Doesn't Work
 
-Main config: config.plist (OpenCore 0.8.5+ compatible) 📄
-
-Use ProperTree or OpenCore Configurator to edit SMBIOS 🔧
-
-Kexts: EFI/OC/Kexts 🧩
-
-SSDTs & ACPI patches: EFI/OC/ACPI 🧬
-
-Drivers: EFI/OC/Drivers 📦
-
-
+- ❌ **Wi-Fi** – internal QCA9377 unsupported, use USB dongle
+- ❌ **Bluetooth** – use USB Bluetooth dongle
+- ⚠️ **Hardware acceleration** – minor glitches with external display (internal OK)
 
 ---
 
-🧯 Troubleshooting
+## 🛠 Installation
 
-💻 Use -v (verbose mode) if stuck at boot
-
-🎧 For audio issues, check codec + kext versions
-
-📡 Internal Wi-Fi may not work — use USB dongle
-
-🌙 Sleep/Wake may need SSDT tweaks depending on BIOS
-
-
+1. 📥 Create a macOS USB installer using standard OpenCore guide  
+2. 📁 Replace the USB's `EFI` folder with this repo’s EFI  
+3. ⚙️ Edit `config.plist` (especially SMBIOS info)  
+4. 🚀 Boot from USB and install macOS  
+5. 💾 After installation, copy EFI to your internal drive’s EFI partition
 
 ---
 
-🙌 Credits
+## ⚙️ Configuration Details
 
-OpenCore – Bootloader & guide
-
-Dortania – Hackintosh documentation 📚
-
-Kext Developers: Lilu, VirtualSMC, WhateverGreen, AppleALC 🔧
-
-pxradise – (me 😎) for building this repo and helping people ❤️
-
-
+- Main config file: `EFI/OC/config.plist`  
+- Use [ProperTree](https://github.com/corpnewt/ProperTree) or OpenCore Configurator to edit SMBIOS  
+- Kexts: `EFI/OC/Kexts`  
+- SSDTs & ACPI patches: `EFI/OC/ACPI`  
+- Drivers: `EFI/OC/Drivers`
 
 ---
 
-⚠️ Disclaimer
+## 🧯 Troubleshooting
 
-This EFI is provided as-is.
-Use at your own risk ⚠️ — always back up your data before proceeding!
-This configuration is made specifically for the Acer Aspire 3 A315-54K or very similar hardware.
-
-
----
-
-🤝 Contributing
-
-Found an issue or improvement?
-Open a PR or issue! ✅
-Please test your changes before submitting. 🧪
-
+- 🖥️ Boot issues? Enable verbose mode with `-v`
+- 🎧 No audio? Recheck codec and AppleALC version
+- 📶 No Wi-Fi? Use external USB adapter
+- 🌙 Sleep not working? May require SSDT/BIOS tweaks
 
 ---
 
-Fammi sapere se vuoi una versione in italiano o un README localizzato! 🇮🇹
+## 🙌 Credits
 
+- [OpenCore](https://dortania.github.io/OpenCore-Install-Guide/) – Bootloader & documentation  
+- [Dortania](https://dortania.github.io/) – Hackintosh documentation  
+- Kext developers: Lilu, VirtualSMC, WhateverGreen, AppleALC 🔧  
+- [pxradise](https://slat.cc/paradiso) – (me 😎) for creating and maintaining this repo
+
+---
+
+## ⚠️ Disclaimer
+
+This EFI is provided **as-is**. Use it at your own risk.  
+Make sure to **backup your data** before installation.  
+Designed specifically for **Acer Aspire 3 A315-54K** or similar hardware.
+
+---
+
+## 🤝 Contributing
+
+Found an issue or have a fix?  
+Feel free to **open an issue** or **submit a pull request** ✅  
+Test your changes before submitting 🧪
