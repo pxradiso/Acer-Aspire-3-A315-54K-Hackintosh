@@ -1,5 +1,5 @@
 # Hackintosh EFI for Acer Aspire 3 A315-54K
-I Made this Repo for everyone who doesn't want to waste time &lt;3
+I Made this Repo for anyone who doesn't want to waste their time &lt;3
 
 
 Here is MacOS Sequoia Working!!
