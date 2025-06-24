@@ -1,4 +1,4 @@
-💻 Hackintosh EFI for Acer Aspire 3 A315-54K
+**💻 Hackintosh EFI for Acer Aspire 3 A315-54K**
 
 I made this repo for anyone who doesn't want to waste their time ❤️
 
