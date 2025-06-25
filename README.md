@@ -50,7 +50,9 @@ It includes all the necessary **kexts**, **drivers**, and a pre-configured `conf
 - ❌ **Wi-Fi** – internal QCA9377 unsupported, use USB dongle
 - ❌ **Bluetooth** – use USB Bluetooth dongle
 - ❌ **Microphone not working** — The microphone has been tested but is currently non-functional.
-- ⚠️ **Hardware acceleration issue** – purple tint on external display (internal display works fine)
+~~- ⚠️ **Hardware acceleration issue** – purple tint on external display (internal display works fine)~~  
+✅ Fixed thanks to [BudDeuce](https://discord.com/users/910329683726459010), who recommended [BetterDisplay](https://github.com/waydabber/BetterDisplay) for fixing display problems and unlocking refresh rates on external monitors.  
+Big thanks to *waydabber* for this great tool!
 
 ---
 
@@ -88,8 +90,9 @@ It includes all the necessary **kexts**, **drivers**, and a pre-configured `conf
 - [OpenCore](https://dortania.github.io/OpenCore-Install-Guide/) – Bootloader & documentation  
 - [Dortania](https://dortania.github.io/) – Hackintosh documentation  
 - Kext developers: Lilu, VirtualSMC, WhateverGreen, AppleALC 🔧  
-- [pxradise](https://slat.cc/paradiso) – (me 😎) for creating and maintaining this repo
-
+- [pxradise](https://slat.cc/paradiso) – (me 😎) For creating and maintaining this repo
+- [BudDeuce](https://discord.com/users/910329683726459010) - aided in finalizing the EFI and display fixes
+- [waydabber](https://github.com/waydabber/) - For creating BetterDisplay!
 ---
 
 ## ⚠️ Disclaimer
