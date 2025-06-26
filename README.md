@@ -25,7 +25,7 @@ It includes all the necessary **kexts**, **drivers**, and a pre-configured `conf
 | 🧠 **RAM**       | 8GB DDR4                                 | ✅ Supported    |
 | 💾 **Storage**   | SSD (50GB or more)                       | ✅ Supported    |
 | 📡 **Wi-Fi**     | Qualcomm QCA9377                         | ❌ Not Working (use USB dongle) |
-| 📡 **Bluetooth** | Intel Dual Band Wireless-AC 8265         | ❌ Not Working (use USB dongle) |
+| 🔵 **Bluetooth** | Intel Dual Band Wireless-AC 8265         | ❌ Not Working (use USB dongle) |
 | 🔊 **Audio**     | Realtek ALC255                           | ✅ Patched      |
 | 👆 **Others**    | Touchpad, keyboard, webcam               | ✅ Supported    |
 
