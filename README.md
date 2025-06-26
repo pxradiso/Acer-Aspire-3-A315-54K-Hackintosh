@@ -19,14 +19,15 @@ It includes all the necessary **kexts**, **drivers**, and a pre-configured `conf
 
 | Component     | Model/Details                             | Status         |
 |---------------|-------------------------------------------|----------------|
-| 💼 **Model**    | Acer Aspire 3 A315-54K                   | ✅ Supported    |
-| ⚙️ **CPU**      | Intel Core i3-8130U (8th Gen)            | ✅ Supported    |
-| 🖥️ **GPU**      | Intel UHD Graphics 620                   | ✅ Supported    |
-| 🧠 **RAM**      | 8GB DDR4                                 | ✅ Supported    |
-| 💾 **Storage**  | SSD (50GB or more)                       | ✅ Supported    |
-| 📡 **Wi-Fi**    | Qualcomm QCA9377                         | ❌ Not Working (use USB dongle) |
-| 🔊 **Audio**    | Realtek ALC255                           | ✅ Patched      |
-| 👆 **Others**   | Touchpad, keyboard, webcam               | ✅ Supported    |
+| 💼 **Model**     | Acer Aspire 3 A315-54K                   | ✅ Supported    |
+| ⚙️ **CPU**       | Intel Core i3-8130U (8th Gen)            | ✅ Supported    |
+| 🖥️ **GPU**       | Intel UHD Graphics 620                   | ✅ Supported    |
+| 🧠 **RAM**       | 8GB DDR4                                 | ✅ Supported    |
+| 💾 **Storage**   | SSD (50GB or more)                       | ✅ Supported    |
+| 📡 **Wi-Fi**     | Qualcomm QCA9377                         | ❌ Not Working (use USB dongle) |
+| 📡 **Bluetooth** | Intel Dual Band Wireless-AC 8265         | ❌ Not Working (use USB dongle) |
+| 🔊 **Audio**     | Realtek ALC255                           | ✅ Patched      |
+| 👆 **Others**    | Touchpad, keyboard, webcam               | ✅ Supported    |
 
 ---
 
