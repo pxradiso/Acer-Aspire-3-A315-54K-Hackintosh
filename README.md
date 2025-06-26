@@ -92,7 +92,7 @@ Big thanks to *waydabber* for this great tool!
 - [Dortania](https://dortania.github.io/) – Hackintosh documentation  
 - Kext developers: Lilu, VirtualSMC, WhateverGreen, AppleALC 🔧  
 - [pxradise](https://slat.cc/paradiso) – (me 😎) For creating and maintaining this repo
-- [BudDeuce](https://discord.com/users/910329683726459010) - aided in finalizing the EFI and display fixes
+- [BudDeuce](https://discord.com/users/910329683726459010) - Aided in finalizing the EFI and display fixes
 - [waydabber](https://github.com/waydabber/) - For creating BetterDisplay!
 ---
 
